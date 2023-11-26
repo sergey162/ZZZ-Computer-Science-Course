@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net" modified="2023-11-26T10:13:12.449Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="MPqvdWw8t6YkSJFW7Qy8" version="22.1.4" type="device">
+  <diagram name="Страница — 1" id="iptZN5yWxyK7VmAYkkI0">
+    <mxGraphModel dx="3285" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-1" value="&lt;span style=&quot;font-size: 34px;&quot;&gt;Find First Symbol /&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="70" width="380" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-3" value="if symbol == /" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=15.294117647058824;endSize=13.435294117647059;endWidth=54.94809688581315;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-520" y="139.41" as="sourcePoint" />
+            <mxPoint x="-60" y="139.41" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-410" y="139.41" />
+              <mxPoint x="-310" y="139.41" />
+              <mxPoint x="-180" y="139.41" />
+              <mxPoint x="-110" y="139.41" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-5" value="if symbol != /&amp;nbsp;" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1.005;entryY=0.908;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.974;exitY=1.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Oa1sNJEPx9GoAT2ihgWZ-1">
+          <mxGeometry x="-0.0145" y="-10" width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-640" y="260" as="sourcePoint" />
+            <mxPoint x="-518.0000000000003" y="197.12000000000012" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-530" y="280" />
+              <mxPoint x="-400" y="280" />
+              <mxPoint x="-400" y="197" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-7" value="&lt;font style=&quot;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 34px;&quot;&gt;Find Second Symbol&amp;nbsp; *&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="70" width="490" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-8" value="If symbol != * goto first state" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.898;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;" edge="1" parent="1" target="Oa1sNJEPx9GoAT2ihgWZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="427" y="150" as="sourcePoint" />
+            <mxPoint x="-570" y="10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="467" y="150" />
+              <mxPoint x="517" y="150" />
+              <mxPoint x="517" y="20" />
+              <mxPoint x="-30" y="10" />
+              <mxPoint x="-310" y="10" />
+              <mxPoint x="-450" y="10" />
+              <mxPoint x="-559" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-10" value="If symbol == *" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=10.833333333333334;endSize=4.716666666666667;fontFamily=Times New Roman;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="150" as="sourcePoint" />
+            <mxPoint x="620" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-11" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 34px;&quot;&gt;Find Counts Word&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="110" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-12" value="if now symbol = &#39;&amp;nbsp; &#39; and last != &#39;&amp;nbsp; &#39; count += 1&amp;nbsp; &amp;nbsp;&amp;nbsp;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.816;entryY=1.059;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Oa1sNJEPx9GoAT2ihgWZ-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="150" as="sourcePoint" />
+            <mxPoint x="720" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="150" />
+              <mxPoint x="910" y="220" />
+              <mxPoint x="810" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-13" value="if now symbol !=&amp;nbsp; &#39;&amp;nbsp; &#39; and != &#39; * &#39;&amp;nbsp; do cycle" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.918;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Oa1sNJEPx9GoAT2ihgWZ-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="150" as="sourcePoint" />
+            <mxPoint x="730" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="150" />
+              <mxPoint x="930" y="40" />
+              <mxPoint x="870" y="40" />
+              <mxPoint x="830" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-14" value="If symbol == &#39;/&#39; and last == &#39;*&#39;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.402;exitY=1.026;exitDx=0;exitDy=0;exitPerimeter=0;width=19.09090909090909;endSize=6.663636363636363;" edge="1" parent="1" target="Oa1sNJEPx9GoAT2ihgWZ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="652.46" y="179.99999999999994" as="sourcePoint" />
+            <mxPoint x="490" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="268.18" />
+              <mxPoint x="350" y="270" />
+              <mxPoint x="340" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-15" value="if symbol == &quot;*&#39;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.67;exitY=1.052;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Oa1sNJEPx9GoAT2ihgWZ-11" target="Oa1sNJEPx9GoAT2ihgWZ-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="777" y="310" as="sourcePoint" />
+            <mxPoint x="774" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-16" value="FInd Second Symbol&amp;nbsp; / Finish" style="rounded=0;whiteSpace=wrap;html=1;fontSize=34;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="630" y="420" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-17" value="&lt;font style=&quot;font-size: 34px;&quot;&gt;END&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="430" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-18" value="if symbol == &#39;/&#39;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.833;entryY=-0.062;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Oa1sNJEPx9GoAT2ihgWZ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="702.5" y="490" as="sourcePoint" />
+            <mxPoint x="530" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="703" y="640" />
+              <mxPoint x="580" y="640" />
+              <mxPoint x="530" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oa1sNJEPx9GoAT2ihgWZ-19" value="else&lt;br&gt;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.192;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Oa1sNJEPx9GoAT2ihgWZ-16" target="Oa1sNJEPx9GoAT2ihgWZ-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="410" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
